@@ -1,5 +1,5 @@
 {
-  "name": "datetimex",
+  "name": "flogo-datetimex-function",
   "type": "flogo:function",
   "version": "0.3.1",
   "title": "Codelity datetime extended functions",
