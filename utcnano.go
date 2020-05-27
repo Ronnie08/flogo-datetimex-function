@@ -7,11 +7,11 @@ import (
 	"github.com/project-flogo/core/data/expression/function"
 )
 
+type fnUtcNano struct {}
+
 func init() {
 	_ = function.Register(&fnUtcNano{})
 }
-
-type fnUtcNano struct {}
 
 func (s *fnUtcNano) Name() string {
 	return "utcNano"
